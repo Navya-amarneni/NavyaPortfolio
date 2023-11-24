@@ -1,0 +1,31 @@
+.resume{
+    margin-left: 320px !important;
+    border: 1px solid black; /* 1px solid black border */
+    padding: 10px;
+    width: 50%;
+    height: 800px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.resume-container{
+    font-family:  sans-serif;  
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 1.7; 
+    color: #4d4d4d; 
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.resume-container h1{
+    padding-top: 80px !important;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 0px;
+    padding-top: 80px;
+}
+
+

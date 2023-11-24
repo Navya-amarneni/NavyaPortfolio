@@ -1,0 +1,131 @@
+:root { 
+    --shadow-1: 10px 10px 19px #1c1e22,      -10px -10px 19px #262a2e; 
+    --p-regular: 400; 
+    --font-primary: "Poppins", sans-serif; 
+    --font-size-b1: 18px; 
+    --line-height-b1: 1.50; 
+} 
+ 
+
+
+.progress-charts { 
+    overflow: hidden;
+} 
+
+.progress { 
+    width: 200px;
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    height: 1rem; 
+    overflow: hidden; 
+    font-size: .75rem; 
+    background-color: #e9ecef; 
+    border-radius: .25rem;
+} 
+
+.progress  { 
+    margin-right: 70px;
+    margin-top: 32px;
+    height: 13px; 
+    overflow: visible; 
+    font-size: 14px; 
+    border-radius: 10px; 
+    padding: 3px; 
+    background: #212428; 
+    box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.4588235294), inset -8px -8px 16px rgba(56, 62, 69, 0.4588235294);
+} 
+
+.progress  { 
+    background: #333; 
+    box-shadow: none;
+} 
+
+.progress-bar { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-box-pack: center; 
+    -webkit-justify-content: center; 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    color: #333; 
+    text-align: center; 
+    white-space: nowrap; 
+    background-color: #0d6efd; 
+    -webkit-transition: width .6s ease; 
+    -o-transition: width .6s ease; 
+    transition: width .6s ease;
+} 
+
+.fadeInLeft { 
+    -webkit-animation-name: fadeInLeft; 
+    animation-name: fadeInLeft;
+} 
+
+.progress .progress-bar  { 
+    overflow: visible; 
+    position: relative; 
+    border-radius: 14px; 
+    background: #f02981; 
+    background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+} 
+
+.progress .progress-bar  { 
+    background: linear-gradient(145deg, #333 0%, #fff 100%);
+} 
+
+.progress .progress-bar span.percent-label  { 
+    position: absolute; 
+    right: -7px; 
+    top: -22px; 
+    font-weight: 400; 
+    color: #c3cedd; 
+    font-size: 14px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    opacity: 0.9;
+} 
+
+.progress .progress-bar span.percent-label  { 
+    color: #fff;
+} 
+
+
+@keyframes fadeInLeft { 
+  0% {  
+      opacity: 0; 
+      -webkit-transform: translate3d(-100%, 0, 0); 
+      transform: translate3d(-100%, 0, 0); 
+      opacity: 0; 
+      transform: translate3d(-100%, 0px, 0px); 
+  }  
+  100% {  
+      opacity: 1; 
+      -webkit-transform: none; 
+      transform: none; 
+      opacity: 1; 
+      transform: none; 
+  }  
+
+} 
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-hROlJ.style-hROlJ {  
+   width: 85%;  
+    visibility: visible;  
+    animation-duration: 0.5s;  
+    animation-delay: 0.3s;  
+    animation-name: fadeInLeft;  
+}  
+
+.progress span{
+    margin-left: 220px;
+}
