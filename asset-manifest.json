@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NavyaPortfolio/static/css/main.c6435051.css",
+    "main.js": "/NavyaPortfolio/static/js/main.01f623ed.js",
+    "index.html": "/NavyaPortfolio/index.html",
+    "main.c6435051.css.map": "/NavyaPortfolio/static/css/main.c6435051.css.map",
+    "main.01f623ed.js.map": "/NavyaPortfolio/static/js/main.01f623ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6435051.css",
+    "static/js/main.01f623ed.js"
+  ]
+}
